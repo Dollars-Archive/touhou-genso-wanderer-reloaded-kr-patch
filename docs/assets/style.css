@@ -96,6 +96,15 @@ h1 { margin: 0; font-family: Georgia, "Noto Serif KR", serif; font-size: clamp(2
 .reader ul { padding-left: 1.35rem; }
 .reader li + li { margin-top: 7px; }
 .reader code { padding: .15em .4em; border-radius: 6px; background: var(--accent-soft); }
+.reader img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 16px 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
 
 @media (max-width: 800px) {
   .shell { width: min(100% - 20px, 760px); padding-top: 18px; }
