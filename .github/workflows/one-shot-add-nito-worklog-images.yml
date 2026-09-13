@@ -23,18 +23,75 @@ jobs:
           set -euo pipefail
           git pull --ff-only origin main
           mkdir -p docs/assets/worklog
-          : > docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp
-          for f in .github/worklog-upload/dismantle.part1 .github/worklog-upload/dismantle.part2 .github/worklog-upload/dismantle.part3; do
-            tr -cd 'A-Za-z0-9+/=' < "$f" | base64 -d >> docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp
-          done
-          : > docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp
-          for f in .github/worklog-upload/fusion.part1 .github/worklog-upload/fusion.part2 .github/worklog-upload/fusion.part3 .github/worklog-upload/fusion.part4; do
-            tr -cd 'A-Za-z0-9+/=' < "$f" | base64 -d >> docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp
-          done
-          echo '49e0fac8c3f22cdf9fa778c4e72ca0d0ae4f2f15855a27ca2fcbb84c47ec24f4  docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp' | sha256sum -c -
-          echo 'd50e2507f6119cc74436e4c3b33ac77d3e4d0c0f44384e64baa98faba2d12d4b  docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp' | sha256sum -c -
           python - <<'PY'
           from pathlib import Path
+          import base64, hashlib, string
+
+          alphabet = set(string.ascii_letters + string.digits + '+/=')
+
+          def cleaned(paths):
+              chunks = []
+              for path in paths:
+                  raw = Path(path).read_text(encoding='utf-8', errors='ignore')
+                  chunks.append(''.join(ch for ch in raw if ch in alphabet))
+              return chunks
+
+          def decode_stream(s):
+              s = s.replace('=', '')
+              s += '=' * (-len(s) % 4)
+              return base64.b64decode(s, validate=True)
+
+          def restore(paths, expected_sha256, output):
+              chunks = cleaned(paths)
+              joined = ''.join(chunks)
+              candidates = []
+              try:
+                  candidates.append(('joined', decode_stream(joined)))
+              except Exception as exc:
+                  print('joined decode failed:', exc)
+
+              try:
+                  parts = b''.join(decode_stream(chunk) for chunk in chunks)
+                  candidates.append(('per-part', parts))
+              except Exception as exc:
+                  print('per-part decode failed:', exc)
+
+              for name, data in candidates:
+                  digest = hashlib.sha256(data).hexdigest()
+                  print(name, 'size=', len(data), 'sha256=', digest)
+                  if digest == expected_sha256:
+                      Path(output).write_bytes(data)
+                      print('matched expected hash using', name)
+                      return
+
+              compact = joined.replace('=', '')
+              if len(compact) % 4 == 1:
+                  print('trying one-character recovery, stream length=', len(compact))
+                  for i in range(len(compact)):
+                      trial = compact[:i] + compact[i+1:]
+                      try:
+                          data = decode_stream(trial)
+                      except Exception:
+                          continue
+                      if hashlib.sha256(data).hexdigest() == expected_sha256:
+                          Path(output).write_bytes(data)
+                          print('matched expected hash after removing staged char at index', i)
+                          return
+
+              print('chunk lengths:', [len(x) for x in chunks])
+              raise SystemExit('unable to reconstruct expected binary for ' + output)
+
+          restore(
+              ['.github/worklog-upload/dismantle.part1', '.github/worklog-upload/dismantle.part2', '.github/worklog-upload/dismantle.part3'],
+              '49e0fac8c3f22cdf9fa778c4e72ca0d0ae4f2f15855a27ca2fcbb84c47ec24f4',
+              'docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp',
+          )
+          restore(
+              ['.github/worklog-upload/fusion.part1', '.github/worklog-upload/fusion.part2', '.github/worklog-upload/fusion.part3', '.github/worklog-upload/fusion.part4'],
+              'd50e2507f6119cc74436e4c3b33ac77d3e4d0c0f44384e64baa98faba2d12d4b',
+              'docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp',
+          )
+
           for path in [
               Path('docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp'),
               Path('docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp'),
@@ -42,6 +99,7 @@ jobs:
               data = path.read_bytes()
               if len(data) < 12 or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
                   raise SystemExit(f'invalid WebP signature: {path}')
+
           p = Path('WORKLOG.md')
           s = p.read_text(encoding='utf-8')
           if '2026-09-13-nito-dismantle-tutorial-compare.webp' not in s:
@@ -50,12 +108,14 @@ jobs:
               if s.count(anchor) != 1:
                   raise SystemExit('worklog image anchor mismatch')
               s = s.replace(anchor, addition, 1)
+
           line = '- 니토 분해·퓨전 튜토리얼 이미지 한글화 작업을 진행했습니다.\n'
           if line not in s:
               anchor2 = '- 프롤로그 도입부와 일부 연출 장면의 한국어 적용 비교 샘플을 제작했습니다.\n'
               if s.count(anchor2) != 1:
                   raise SystemExit('worklog list anchor mismatch')
               s = s.replace(anchor2, anchor2 + line, 1)
+
           banned = ['내부 제작 노하우는 공개하지 않습니다', '성과는 공개하고 레시피는 공개하지 않는다']
           if any(x in s for x in banned):
               raise SystemExit('banned defensive wording found in WORKLOG.md')
