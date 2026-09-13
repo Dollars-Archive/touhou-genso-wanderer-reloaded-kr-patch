@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7f2036">
+  <title>Touhou Genso Wanderer Reloaded · 작업일지</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="eyebrow">DOLLARS ARCHIVE · KR LOCALIZATION</div>
+      <div class="hero-row">
+        <div>
+          <h1>Touhou Genso Wanderer Reloaded</h1>
+          <p class="subtitle">한국어 패치 공개 작업일지</p>
+        </div>
+        <span class="status-pill">🚧 작업 진행 중</span>
+      </div>
+      <p class="lead">배포 전까지의 제작 흐름과 검수 진행 상황을 기록합니다. 내부 제작 노하우는 공개하지 않습니다.</p>
+      <nav class="actions" aria-label="바로가기">
+        <a href="https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="side-card">
+        <div class="side-label">WORKLOG</div>
+        <p>최신 기록이 가장 위에 표시됩니다.</p>
+        <div class="rule"></div>
+        <p class="motto">성과는 공개하고,<br>레시피는 공개하지 않는다.</p>
+      </aside>
+
+      <section class="reader-wrap">
+        <div id="status" class="loading">작업일지를 불러오는 중...</div>
+        <article id="reader" class="reader" hidden></article>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
