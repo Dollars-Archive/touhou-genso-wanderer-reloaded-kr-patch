@@ -5,7 +5,6 @@
 > 현재 《Touhou Genso Wanderer Reloaded》의 한국어 패치를 제작하고 있습니다.
 >
 > 작업 과정과 진행 상황은 공개 작업일지에 기록합니다.
-> 세부 분석 방법과 내부 제작 노하우는 공개하지 않습니다.
 >
 > 📓 [웹 작업일지 보기](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)
 
