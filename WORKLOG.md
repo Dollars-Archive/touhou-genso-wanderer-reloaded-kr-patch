@@ -22,23 +22,19 @@
 
 #### 프롤로그 도입 문구
 
-![프롤로그 도입 문구 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-prologue-video-compare.webp)
+<img width="1920" height="1080" alt="Codex 이미지 2026년 9월 13일 오전 02_35_29" src="https://github.com/user-attachments/assets/386824d6-d12f-43f0-9d57-909896721633" />
 
 #### 신별 강림
 
-![신별 강림 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-arahitogami-video-compare.webp)
+<img width="1920" height="1080" alt="Codex 이미지 2026년 9월 13일 오전 02_34_58" src="https://github.com/user-attachments/assets/39d9451a-20fc-40c6-9700-235d060c2c11" />
 
-#### 니토 분해 튜토리얼
+#### 니토 퓨전 & 분해 튜토리얼
 
-아이템 분해 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.
+아이템 융합 & 분해 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.
 
-![니토 분해 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp)
+<img width="1920" height="1080" alt="Codex 이미지 2026년 9월 13일 오후 03_59_44" src="https://github.com/user-attachments/assets/c72c7f62-6372-4e87-b8ea-8dbf493320cc" />
 
-#### 니토 퓨전 튜토리얼
-
-아이템 융합 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.
-
-![니토 퓨전 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp)
+<img width="1920" height="1080" alt="니토 분해 튜토리얼 한글화 비교 - description-textured-v2" src="https://github.com/user-attachments/assets/98110a71-e80a-4ffe-a24e-61ae82114fc3" />
 
 ### 세이브 스냅샷 관리자 (MVP)
 
