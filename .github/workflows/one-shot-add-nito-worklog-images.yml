@@ -1,0 +1,66 @@
+name: One-shot add Nito worklog images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/one-shot-add-nito-worklog-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build image files and update worklog
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p docs/assets/worklog
+          cat .github/worklog-upload/dismantle.part1 .github/worklog-upload/dismantle.part2 .github/worklog-upload/dismantle.part3 | base64 -d > docs/assets/worklog/2026-09-13-nito-dismantle-tutorial.webp
+          cat .github/worklog-upload/fusion.part1 .github/worklog-upload/fusion.part2 .github/worklog-upload/fusion.part3 .github/worklog-upload/fusion.part4 | base64 -d > docs/assets/worklog/2026-09-13-nito-fusion-tutorial.webp
+          echo '49e0fac8c3f22cdf9fa778c4e72ca0d0ae4f2f15855a27ca2fcbb84c47ec24f4  docs/assets/worklog/2026-09-13-nito-dismantle-tutorial.webp' | sha256sum -c -
+          echo 'd50e2507f6119cc74436e4c3b33ac77d3e4d0c0f44384e64baa98faba2d12d4b  docs/assets/worklog/2026-09-13-nito-fusion-tutorial.webp' | sha256sum -c -
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('WORKLOG.md')
+          s = p.read_text(encoding='utf-8')
+          anchor = '''#### 신별 강림
+
+![신별 강림 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-arahitogami-video-compare.webp)
+'''
+          addition = '''#### 신별 강림
+
+![신별 강림 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-arahitogami-video-compare.webp)
+
+#### 니토 분해 튜토리얼
+
+![니토 분해 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-dismantle-tutorial.webp)
+
+#### 니토 퓨전 튜토리얼
+
+![니토 퓨전 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-fusion-tutorial.webp)
+'''
+          if '2026-09-13-nito-dismantle-tutorial.webp' not in s:
+              if s.count(anchor) != 1:
+                  raise SystemExit('worklog anchor mismatch')
+              s = s.replace(anchor, addition, 1)
+              s = s.replace('- 프롤로그 도입부와 일부 연출 장면의 한국어 적용 비교 샘플을 제작했습니다.\n', '- 프롤로그 도입부와 일부 연출 장면의 한국어 적용 비교 샘플을 제작했습니다.\n- 니토 분해·퓨전 튜토리얼 이미지 한국어판 비교 샘플을 추가했습니다.\n', 1)
+              p.write_text(s, encoding='utf-8')
+          PY
+          rm -rf .github/worklog-upload
+          rm .github/workflows/one-shot-add-nito-worklog-images.yml
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "docs: add Nito tutorial localization samples"
+          git push origin HEAD:main
