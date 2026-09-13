@@ -17,23 +17,58 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Restore and verify images
+      - name: Restore, verify, and update worklog
         shell: bash
         run: |
           set -euo pipefail
+          git pull --ff-only origin main
           mkdir -p docs/assets/worklog
-          cat .github/worklog-upload/dismantle.part1 .github/worklog-upload/dismantle.part2 .github/worklog-upload/dismantle.part3 | base64 -d > docs/assets/worklog/2026-09-13-nito-dismantle-tutorial.webp
-          cat .github/worklog-upload/fusion.part1 .github/worklog-upload/fusion.part2 .github/worklog-upload/fusion.part3 .github/worklog-upload/fusion.part4 | base64 -d > docs/assets/worklog/2026-09-13-nito-fusion-tutorial.webp
-          echo '49e0fac8c3f22cdf9fa778c4e72ca0d0ae4f2f15855a27ca2fcbb84c47ec24f4  docs/assets/worklog/2026-09-13-nito-dismantle-tutorial.webp' | sha256sum -c -
-          echo 'd50e2507f6119cc74436e4c3b33ac77d3e4d0c0f44384e64baa98faba2d12d4b  docs/assets/worklog/2026-09-13-nito-fusion-tutorial.webp' | sha256sum -c -
+          cat .github/worklog-upload/dismantle.part1 .github/worklog-upload/dismantle.part2 .github/worklog-upload/dismantle.part3 | base64 -d > docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp
+          cat .github/worklog-upload/fusion.part1 .github/worklog-upload/fusion.part2 .github/worklog-upload/fusion.part3 .github/worklog-upload/fusion.part4 | base64 -d > docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp
+          echo '49e0fac8c3f22cdf9fa778c4e72ca0d0ae4f2f15855a27ca2fcbb84c47ec24f4  docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp' | sha256sum -c -
+          echo 'd50e2507f6119cc74436e4c3b33ac77d3e4d0c0f44384e64baa98faba2d12d4b  docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp' | sha256sum -c -
+          python - <<'PY'
+          from pathlib import Path
+          for path in [
+              Path('docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp'),
+              Path('docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp'),
+          ]:
+              data = path.read_bytes()
+              if len(data) < 12 or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
+                  raise SystemExit(f'invalid WebP signature: {path}')
+          p = Path('WORKLOG.md')
+          s = p.read_text(encoding='utf-8')
+          if '2026-09-13-nito-dismantle-tutorial-compare.webp' not in s:
+              anchor = '''#### 신별 강림\n\n![신별 강림 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-arahitogami-video-compare.webp)\n'''
+              addition = '''#### 신별 강림\n\n![신별 강림 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-arahitogami-video-compare.webp)\n\n#### 니토 분해 튜토리얼\n\n아이템 분해 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.\n\n![니토 분해 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp)\n\n#### 니토 퓨전 튜토리얼\n\n아이템 융합 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.\n\n![니토 퓨전 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp)\n'''
+              if s.count(anchor) != 1:
+                  raise SystemExit('worklog image anchor mismatch')
+              s = s.replace(anchor, addition, 1)
+          line = '- 니토 분해·퓨전 튜토리얼 이미지 한글화 작업을 진행했습니다.\n'
+          if line not in s:
+              anchor2 = '- 프롤로그 도입부와 일부 연출 장면의 한국어 적용 비교 샘플을 제작했습니다.\n'
+              if s.count(anchor2) != 1:
+                  raise SystemExit('worklog list anchor mismatch')
+              s = s.replace(anchor2, anchor2 + line, 1)
+          banned = ['내부 제작 노하우는 공개하지 않습니다', '성과는 공개하고 레시피는 공개하지 않는다']
+          if any(x in s for x in banned):
+              raise SystemExit('banned defensive wording found in WORKLOG.md')
+          readme = Path('README.md').read_text(encoding='utf-8')
+          if any(x in readme for x in banned):
+              raise SystemExit('banned defensive wording found in README.md')
+          p.write_text(s, encoding='utf-8')
+          PY
           rm -rf .github/worklog-upload
           rm .github/workflows/one-shot-add-nito-worklog-images.yml
 
       - name: Commit and push
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --check
-          git commit -m "docs: add Nito tutorial comparison images"
+          git diff --cached -- WORKLOG.md
+          git commit -m "docs: add Nito tutorial localization samples"
           git push origin HEAD:main
