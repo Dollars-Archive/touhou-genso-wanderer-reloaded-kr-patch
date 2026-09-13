@@ -23,8 +23,14 @@ jobs:
           set -euo pipefail
           git pull --ff-only origin main
           mkdir -p docs/assets/worklog
-          cat .github/worklog-upload/dismantle.part1 .github/worklog-upload/dismantle.part2 .github/worklog-upload/dismantle.part3 | tr -cd 'A-Za-z0-9+/=' | base64 -d > docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp
-          cat .github/worklog-upload/fusion.part1 .github/worklog-upload/fusion.part2 .github/worklog-upload/fusion.part3 .github/worklog-upload/fusion.part4 | tr -cd 'A-Za-z0-9+/=' | base64 -d > docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp
+          : > docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp
+          for f in .github/worklog-upload/dismantle.part1 .github/worklog-upload/dismantle.part2 .github/worklog-upload/dismantle.part3; do
+            tr -cd 'A-Za-z0-9+/=' < "$f" | base64 -d >> docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp
+          done
+          : > docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp
+          for f in .github/worklog-upload/fusion.part1 .github/worklog-upload/fusion.part2 .github/worklog-upload/fusion.part3 .github/worklog-upload/fusion.part4; do
+            tr -cd 'A-Za-z0-9+/=' < "$f" | base64 -d >> docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp
+          done
           echo '49e0fac8c3f22cdf9fa778c4e72ca0d0ae4f2f15855a27ca2fcbb84c47ec24f4  docs/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp' | sha256sum -c -
           echo 'd50e2507f6119cc74436e4c3b33ac77d3e4d0c0f44384e64baa98faba2d12d4b  docs/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp' | sha256sum -c -
           python - <<'PY'
