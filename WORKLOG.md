@@ -13,6 +13,7 @@
 - 완전 자동 진행보다는 사용자가 직접 조작하면서 검수를 빠르게 진행할 수 있는 보조 방식으로 방향을 정리했습니다.
 - 전투와 보스전처럼 수동 진행이 필요한 구간의 검수 편의를 높이기 위한 기능을 추가로 준비하고 있습니다.
 - 프롤로그 도입부와 일부 연출 장면의 한국어 적용 비교 샘플을 제작했습니다.
+- 니토 분해·퓨전 튜토리얼 이미지 한글화 작업을 진행했습니다.
 - 반복 검수와 롤백을 빠르게 진행하기 위한 세이브 스냅샷 관리자(MVP)를 제작했습니다.
 
 ### 영상·이미지 한글화 샘플
@@ -26,6 +27,18 @@
 #### 신별 강림
 
 ![신별 강림 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-arahitogami-video-compare.webp)
+
+#### 니토 분해 튜토리얼
+
+아이템 분해 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.
+
+![니토 분해 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-dismantle-tutorial-compare.webp)
+
+#### 니토 퓨전 튜토리얼
+
+아이템 융합 안내 화면의 튜토리얼 이미지를 한국어로 식질했습니다.
+
+![니토 퓨전 튜토리얼 원본·한국어판 비교](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/assets/worklog/2026-09-13-nito-fusion-tutorial-compare.webp)
 
 ### 세이브 스냅샷 관리자 (MVP)
 
