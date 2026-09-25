@@ -47,6 +47,12 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <!-- 스크린샷 추가 -->
 
+### 동영상 자막
+
+게임 내 동영상 및 이벤트 영상의 자막을 한국어화합니다.
+
+<!-- 스크린샷 추가 -->
+
 ## 다운로드
 
 한국어 패치 공개 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 배포합니다.
