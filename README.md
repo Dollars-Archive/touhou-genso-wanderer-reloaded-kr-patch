@@ -41,19 +41,26 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="2083" height="1265" alt="20260924234503_1" src="https://github.com/user-attachments/assets/6d628f7c-4eab-4e77-bdba-2df790df3fc9" />
 <img width="2083" height="1265" alt="20260924234511_1" src="https://github.com/user-attachments/assets/3749f7ae-2f89-4ca7-9604-24ad606a2c9c" />
 <img width="2083" height="1265" alt="20260924234514_1" src="https://github.com/user-attachments/assets/ad053584-f619-4c39-ab5d-8ffc9525216b" />
+<img width="2083" height="1265" alt="20260924234537_1" src="https://github.com/user-attachments/assets/c18157ca-534e-428b-b22b-7911f84e2476" />
+<img width="2083" height="1265" alt="20260924234546_1" src="https://github.com/user-attachments/assets/fbffe50c-2486-4fa6-aaff-e7e6e2b24740" />
 
 
 ### 튜토리얼 / 이미지
 
 튜토리얼 및 게임 내 이미지 자산 중 한국어화가 필요한 항목을 작업합니다.
 
-<!-- 스크린샷 추가 -->
+<img width="2083" height="1265" alt="20260924203024_1" src="https://github.com/user-attachments/assets/b4bb3c70-d3c1-4f16-acbc-b0a949b276b0" />
+<img width="2083" height="1265" alt="20260925015131_1" src="https://github.com/user-attachments/assets/089a846b-5514-406a-83a8-b55458f71da7" />
+<img width="2083" height="1265" alt="20260924202732_1" src="https://github.com/user-attachments/assets/923dbc0e-565c-42a4-a624-a095038ab142" />
+<img width="2083" height="1265" alt="20260924202728_1" src="https://github.com/user-attachments/assets/49297b48-bde0-4051-94ac-a40cc68f37d6" />
 
 ### 동영상 자막
 
 게임 내 동영상 및 이벤트 영상의 자막을 한국어화합니다.
 
-<!-- 스크린샷 추가 -->
+<img width="1920" height="1080" alt="Codex 이미지 2026년 9월 13일 오전 02_35_29" src="https://github.com/user-attachments/assets/55a0e316-4e35-42ab-a000-b327269d37e7" />
+<img width="1920" height="1080" alt="Codex 이미지 2026년 9월 13일 오전 02_34_58" src="https://github.com/user-attachments/assets/30c84783-b8de-4e69-a496-d817285b8214" />
+
 
 ## 다운로드
 
@@ -61,16 +68,10 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 설치 및 적용 방법은 배포 시 함께 안내할 예정입니다.
 
-## 작업 기록
-
-한국어화 작업 과정과 주요 변경 내역은 아래에서 확인할 수 있습니다.
-
-- [WORKLOG.md](WORKLOG.md)
-- [웹 작업일지](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)
-
 ## 오류 및 번역 제보
 
-오역, 오탈자, 미번역, 용어 문제 또는 패치 적용 오류를 발견하셨다면 [Issues](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/issues)를 통해 제보해 주세요.
+오역, 오탈자, 미번역, 용어 문제 또는 패치 적용 오류를 발견하셨다면 
+[Issues](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/issues)를 통해 제보해 주세요.
 
 가능하면 발생 장면과 스크린샷을 함께 첨부해 주시면 확인에 도움이 됩니다.
 
