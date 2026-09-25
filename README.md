@@ -5,8 +5,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 배포 시작 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
 
-<br>
-
 ## 지원 게임 버전
 
 - **PC판**
@@ -14,14 +12,10 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 다른 버전에서는 정상 동작을 보장하지 않습니다.
 
-<br>
-
 ## 한국어화 범위
 
 > 게임 진행에 필요한 주요 텍스트와 UI를 중심으로 한국어화를 진행하고 있습니다.
 
-
-<br>
 
 ### 대사 / 이벤트
 
