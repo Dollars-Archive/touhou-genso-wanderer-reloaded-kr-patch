@@ -5,6 +5,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 배포 시작 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
 
+<br>
+
 ## 지원 게임 버전
 
 - **PC판**
@@ -12,10 +14,14 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 다른 버전에서는 정상 동작을 보장하지 않습니다.
 
+<br>
+
 ## 한국어화 범위
 
 > 게임 진행에 필요한 주요 텍스트와 UI를 중심으로 한국어화를 진행하고 있습니다.
 
+
+<br>
 
 ### 대사 / 이벤트
 
@@ -25,6 +31,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="80%" alt="20260924235730_1" src="https://github.com/user-attachments/assets/71a87474-c88d-457d-b5b7-cbcae63590df" />
 
 
+<br>
+
 ### 메뉴 / UI
 
 > 게임 진행에 사용되는 주요 메뉴와 UI 텍스트를 한국어화합니다.
@@ -33,6 +41,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="80%" alt="20260924234552_1" src="https://github.com/user-attachments/assets/8ec035df-2250-420c-911e-27235210eb84" />
 <img width="80%" alt="20260922204806_1" src="https://github.com/user-attachments/assets/3a591b85-22da-4699-b176-b470400ed479" />
 
+
+<br>
 
 ### 아이템 / 스킬 / 도감
 
@@ -49,6 +59,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="80%" alt="20260924234546_1" src="https://github.com/user-attachments/assets/fbffe50c-2486-4fa6-aaff-e7e6e2b24740" />
 
 
+<br>
+
 ### 튜토리얼 / 이미지
 
 > 튜토리얼 및 게임 내 이미지 자산 중 한국어화가 필요한 항목을 작업합니다.
@@ -59,6 +71,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="80%" alt="20260924202728_1" src="https://github.com/user-attachments/assets/49297b48-bde0-4051-94ac-a40cc68f37d6" />
 
 
+<br>
+
 ### 동영상 자막
 
 > 게임 내 동영상 및 이벤트 영상의 자막을 한국어화합니다.
@@ -66,6 +80,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="80%" alt="Codex 이미지 2026년 9월 13일 오전 02_35_29" src="https://github.com/user-attachments/assets/55a0e316-4e35-42ab-a000-b327269d37e7" />
 <img width="80%" alt="Codex 이미지 2026년 9월 13일 오전 02_34_58" src="https://github.com/user-attachments/assets/30c84783-b8de-4e69-a496-d817285b8214" />
 
+
+<br>
 
 ### 플로어 / 장소 이름
 
@@ -83,18 +99,24 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <img width="80%" alt="loading_area06" src="https://github.com/user-attachments/assets/f86e2cf5-ed36-4465-863d-5bf0f16949ad" />
 
 
+<br>
+
 ## 다운로드
 
 > 한국어 패치 공개 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 배포합니다.
 > 설치 및 적용 방법은 배포 시 함께 안내할 예정입니다.
 
 
+<br>
+
 ## 오류 및 번역 제보
 
 > 오역, 오탈자, 미번역, 용어 문제 또는 패치 적용 오류를 발견하셨다면<br>
-> [Issues](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/issues)를 통해 제보해 주세요.
->가능하면 발생 장면과 스크린샷을 함께 첨부해 주시면 확인에 도움이 됩니다.
+> [Issues](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/issues)를 통해 제보해 주세요.<br>
+> 가능하면 발생 장면과 스크린샷을 함께 첨부해 주시면 확인에 도움이 됩니다.
 
+
+<br>
 
 ## 배포 안내
 
