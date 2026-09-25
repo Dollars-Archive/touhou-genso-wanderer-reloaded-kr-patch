@@ -1,6 +1,6 @@
 # 이상한 환상향 TOD -RELOADED- 한국어 패치
 
-PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TOD -RELOADED-)** 
+PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TOD -RELOADED-)**<br>
 비공식 한국어 패치 프로젝트입니다.
 
 배포 시작 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
