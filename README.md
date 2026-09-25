@@ -35,6 +35,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 아이템, 스킬, 설명문 및 도감 관련 텍스트를 한국어화합니다.
 
+<img width="2083" height="1265" alt="20260924234727_1" src="https://github.com/user-attachments/assets/dd26a12c-05de-416e-a183-6f72e01d1774" />
 <img width="2083" height="1265" alt="20260924234444_1" src="https://github.com/user-attachments/assets/ce73abdc-7a23-45e8-872a-d20c61a7d01e" />
 <img width="2083" height="1265" alt="20260924234532_1" src="https://github.com/user-attachments/assets/94d5dae9-792f-4dee-89a0-1ff9df30bad3" />
 <img width="2083" height="1265" alt="20260924234507_1" src="https://github.com/user-attachments/assets/81d087a0-6874-4b37-afd8-8996da8d085c" />
