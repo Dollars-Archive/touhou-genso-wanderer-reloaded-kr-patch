@@ -178,7 +178,7 @@ SD:/atmosphere/contents/01004E900B082000/romfs/...
 
 PC판과 Nintendo Switch판 모두 패치 적용 중 **대체 배경 사용** 또는 **원본 게임 배경 유지**를 선택할 수 있습니다.
 
-<img class="background-option-shot" alt="스크린샷 2026-09-25 004516" src="https://github.com/user-attachments/assets/1d282dcf-fcfb-44c6-a810-e8d0469c5939" />
+<img class="background-selection-shot" alt="스크린샷 2026-09-25 004516" src="https://github.com/user-attachments/assets/1d282dcf-fcfb-44c6-a810-e8d0469c5939" />
 
 <img class="background-option-shot" alt="배경 이미지 변경 전후 비교" src="https://github.com/user-attachments/assets/6c8bb586-2061-43b2-b0aa-45d6d8dec1c3" />
 
