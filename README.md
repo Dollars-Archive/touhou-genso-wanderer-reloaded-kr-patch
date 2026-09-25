@@ -3,7 +3,12 @@
 PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TOD -RELOADED-)**<br>
 비공식 한국어 패치 프로젝트입니다.
 
-배포 시작 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
+최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
+
+설치 및 적용 방법은 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**를 확인해 주세요.
+
+> [!TIP]
+> 설치 방법을 처음 보는 경우 GitHub의 `INSTALL.md` 원문보다 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 보는 것을 권장합니다.
 
 ## 지원 게임 버전
 
@@ -98,8 +103,9 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ## 다운로드
 
-> 한국어 패치 공개 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 배포합니다.
-> 설치 및 적용 방법은 배포 시 함께 안내할 예정입니다.
+최신 한국어 패치는 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
+
+설치 및 적용 방법은 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**를 참고해 주세요.
 
 
 <br>
