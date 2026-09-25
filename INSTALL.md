@@ -64,7 +64,7 @@ Touhou Genso Wanderer -Reloaded-
 └─ data
 ```
 
-<img width="400" height="200" alt="스크린샷 2026-09-25 205855" src="https://github.com/user-attachments/assets/c6944c25-0218-406b-9c1d-7067497e45e2" />
+<img class="guide-shot-left" width="400" height="200" alt="스크린샷 2026-09-25 205855" src="https://github.com/user-attachments/assets/c6944c25-0218-406b-9c1d-7067497e45e2" />
 
 4. 설치 중 표시되는 배경 이미지 옵션에서 원하는 항목을 선택합니다.
 5. 원본 검사 → 패치 적용 → 결과 검사가 끝날 때까지 기다립니다.
@@ -178,9 +178,9 @@ SD:/atmosphere/contents/01004E900B082000/romfs/...
 
 PC판과 Nintendo Switch판 모두 패치 적용 중 **대체 배경 사용** 또는 **원본 게임 배경 유지**를 선택할 수 있습니다.
 
-<img width="1920" height="740" alt="스크린샷 2026-09-25 004516" src="https://github.com/user-attachments/assets/1d282dcf-fcfb-44c6-a810-e8d0469c5939" />
+<img class="background-option-shot" alt="스크린샷 2026-09-25 004516" src="https://github.com/user-attachments/assets/1d282dcf-fcfb-44c6-a810-e8d0469c5939" />
 
-<img width="1920" height="740" alt="배경 이미지 변경 전후 비교" src="https://github.com/user-attachments/assets/6c8bb586-2061-43b2-b0aa-45d6d8dec1c3" />
+<img class="background-option-shot" alt="배경 이미지 변경 전후 비교" src="https://github.com/user-attachments/assets/6c8bb586-2061-43b2-b0aa-45d6d8dec1c3" />
 
 두 옵션은 해당 연출의 배경 이미지와 회전 효과만 다르며, **번역 내용과 게임 진행에는 차이가 없습니다.**
 
