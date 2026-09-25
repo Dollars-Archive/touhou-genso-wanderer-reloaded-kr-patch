@@ -16,6 +16,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 > 게임 진행에 필요한 주요 텍스트와 UI를 중심으로 한국어화를 진행하고 있습니다.
 
+<br>
 
 ### 대사 / 이벤트
 
