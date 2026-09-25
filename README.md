@@ -1,21 +1,14 @@
 # 이상한 환상향 TOD -RELOADED- 한국어 패치
 
-PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TOD -RELOADED-)** 비공식 한국어 패치 프로젝트입니다.
-
-현재 한국어 패치의 공개 배포를 준비하고 있습니다.
+PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TOD -RELOADED-)** 
+비공식 한국어 패치 프로젝트입니다.
 
 배포 시작 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 받을 수 있습니다.
-
-프로젝트 관련 안내 및 작업 기록은 **[웹 페이지](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 확인할 수 있습니다.
-
-> [!NOTE]
-> 지원 버전, 설치 방법, 패치 적용 범위 등 세부 내용은 정식 배포에 맞춰 갱신될 예정입니다.
 
 ## 지원 게임 버전
 
 - **PC판**
 - **Nintendo Switch판**
-- 상세 지원 버전은 추후 기재 예정
 
 다른 버전에서는 정상 동작을 보장하지 않습니다.
 
@@ -27,19 +20,28 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 스토리 대사 및 이벤트 텍스트를 한국어화합니다.
 
-<!-- 스크린샷 추가 -->
+<img width="3440" height="1440" alt="20260922204853_1" src="https://github.com/user-attachments/assets/fcd29c19-8959-4cee-8800-37733f50e394" />
+<img width="2083" height="1265" alt="20260924235730_1" src="https://github.com/user-attachments/assets/71a87474-c88d-457d-b5b7-cbcae63590df" />
 
 ### 메뉴 / UI
 
 게임 진행에 사용되는 주요 메뉴와 UI 텍스트를 한국어화합니다.
 
-<!-- 스크린샷 추가 -->
+<img width="2083" height="1265" alt="20260924234611_1" src="https://github.com/user-attachments/assets/2b0c5713-ab6d-4c3d-9dc7-1422ec15c764" />
+<img width="2083" height="1265" alt="20260924234552_1" src="https://github.com/user-attachments/assets/8ec035df-2250-420c-911e-27235210eb84" />
+<img width="3440" height="1440" alt="20260922204806_1" src="https://github.com/user-attachments/assets/3a591b85-22da-4699-b176-b470400ed479" />
 
 ### 아이템 / 스킬 / 도감
 
 아이템, 스킬, 설명문 및 도감 관련 텍스트를 한국어화합니다.
 
-<!-- 스크린샷 추가 -->
+<img width="2083" height="1265" alt="20260924234444_1" src="https://github.com/user-attachments/assets/ce73abdc-7a23-45e8-872a-d20c61a7d01e" />
+<img width="2083" height="1265" alt="20260924234532_1" src="https://github.com/user-attachments/assets/94d5dae9-792f-4dee-89a0-1ff9df30bad3" />
+<img width="2083" height="1265" alt="20260924234507_1" src="https://github.com/user-attachments/assets/81d087a0-6874-4b37-afd8-8996da8d085c" />
+<img width="2083" height="1265" alt="20260924234503_1" src="https://github.com/user-attachments/assets/6d628f7c-4eab-4e77-bdba-2df790df3fc9" />
+<img width="2083" height="1265" alt="20260924234511_1" src="https://github.com/user-attachments/assets/3749f7ae-2f89-4ca7-9604-24ad606a2c9c" />
+<img width="2083" height="1265" alt="20260924234514_1" src="https://github.com/user-attachments/assets/ad053584-f619-4c39-ab5d-8ffc9525216b" />
+
 
 ### 튜토리얼 / 이미지
 
