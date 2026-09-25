@@ -64,6 +64,8 @@ Touhou Genso Wanderer -Reloaded-
 └─ data
 ```
 
+<img width="1759" height="1554" alt="스크린샷 2026-09-25 004500" src="https://github.com/user-attachments/assets/3e76e281-edd6-4ba2-a84f-5aa3526bbdd0" />
+
 4. 설치 중 표시되는 배경 이미지 옵션에서 원하는 항목을 선택합니다.
 5. 원본 검사 → 패치 적용 → 결과 검사가 끝날 때까지 기다립니다.
 6. 완료 후 게임을 실행해 한국어 적용 여부를 확인합니다.
@@ -175,6 +177,8 @@ SD:/atmosphere/contents/01004E900B082000/romfs/...
 ## 5. 배경 이미지 옵션
 
 PC판과 Nintendo Switch판 모두 패치 적용 중 **대체 배경 사용** 또는 **원본 게임 배경 유지**를 선택할 수 있습니다.
+
+<img width="1215" height="641" alt="스크린샷 2026-09-25 004516" src="https://github.com/user-attachments/assets/1d282dcf-fcfb-44c6-a810-e8d0469c5939" />
 
 <img width="1920" height="740" alt="배경 이미지 변경 전후 비교" src="https://github.com/user-attachments/assets/6c8bb586-2061-43b2-b0aa-45d6d8dec1c3" />
 
