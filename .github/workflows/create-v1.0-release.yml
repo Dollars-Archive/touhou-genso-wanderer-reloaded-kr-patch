@@ -1,0 +1,56 @@
+name: Create v1.0 Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/create-v1.0-release.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub Release v1.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if gh release view v1.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v1.0 release already exists."
+            exit 0
+          fi
+
+          cat > /tmp/release-notes.md <<'EOF'
+          # 이상한 환상향 TOD -RELOADED- 한국어 패치 v1.0
+
+          첫 공개 배포 버전입니다.
+
+          ## 한국어화 범위
+
+          - 대사 / 이벤트
+          - 메뉴 / UI
+          - 아이템 / 스킬 / 도감
+          - 튜토리얼 / 이미지
+          - 동영상 자막
+
+          ## 지원 플랫폼
+
+          - PC
+          - Nintendo Switch
+
+          ## 안내
+
+          자세한 내용과 최신 안내는 저장소 README를 확인해 주세요.
+
+          > 본 패치는 팬 제작 비공식 한국어 패치이며 게임 원본 파일을 포함하지 않습니다.
+          EOF
+
+          gh release create v1.0 \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "이상한 환상향 TOD -RELOADED- 한국어 패치 v1.0" \
+            --notes-file /tmp/release-notes.md
