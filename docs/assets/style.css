@@ -203,10 +203,23 @@ code, pre { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 20px auto;
+  margin: 20px 0 34px;
   border: 1px solid var(--line);
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(83, 39, 53, .10);
+}
+.reader img.guide-shot-left {
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 44px;
+}
+.reader img.background-option-shot {
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  object-position: left center;
+  margin: 18px 0 24px;
+  background: var(--paper-soft);
 }
 
 .callout {
@@ -250,6 +263,7 @@ code, pre { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
   .reader-card { border-radius: 18px; }
   .reader { padding: 25px 18px 34px; }
   .reader h2 { font-size: 25px; }
+  .reader img.background-option-shot { height: 240px; }
   .toc-card { border-radius: 15px; }
   .toc { grid-template-columns: 1fr; }
 }
