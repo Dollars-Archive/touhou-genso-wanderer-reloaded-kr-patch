@@ -86,7 +86,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 ## 다운로드
 
 > 한국어 패치 공개 후 최신 버전은 [Releases](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases)에서 배포합니다.
-
 > 설치 및 적용 방법은 배포 시 함께 안내할 예정입니다.
 
 
@@ -94,16 +93,12 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 > 오역, 오탈자, 미번역, 용어 문제 또는 패치 적용 오류를 발견하셨다면<br>
 > [Issues](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/issues)를 통해 제보해 주세요.
-
-가능하면 발생 장면과 스크린샷을 함께 첨부해 주시면 확인에 도움이 됩니다.
+>가능하면 발생 장면과 스크린샷을 함께 첨부해 주시면 확인에 도움이 됩니다.
 
 
 ## 배포 안내
 
 > 본 패치는 팬 제작 비공식 한국어 패치입니다.
-
 > 원작 및 관련 콘텐츠의 저작권과 상표권은 각 권리자에게 있습니다.
-
 > **본 패치는 게임 원본 파일을 포함하지 않으며, 패치 파일만 제공합니다.**
-
 > 본 패치의 상업적 판매 및 유료 배포, 원본 게임과 합본 형태의 재배포를 금지합니다.
