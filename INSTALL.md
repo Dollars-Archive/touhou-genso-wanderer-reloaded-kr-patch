@@ -64,7 +64,7 @@ Touhou Genso Wanderer -Reloaded-
 └─ data
 ```
 
-<img width="1024" height="468" alt="스크린샷 2026-09-25 205855" src="https://github.com/user-attachments/assets/c6944c25-0218-406b-9c1d-7067497e45e2" />
+<img width="800" height="400" alt="스크린샷 2026-09-25 205855" src="https://github.com/user-attachments/assets/c6944c25-0218-406b-9c1d-7067497e45e2" />
 
 4. 설치 중 표시되는 배경 이미지 옵션에서 원하는 항목을 선택합니다.
 5. 원본 검사 → 패치 적용 → 결과 검사가 끝날 때까지 기다립니다.
