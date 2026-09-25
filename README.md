@@ -71,7 +71,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ## 오류 및 번역 제보
 
-오역, 오탈자, 미번역, 용어 문제 또는 패치 적용 오류를 발견하셨다면 
+오역, 오탈자, 미번역, 용어 문제 또는 패치 적용 오류를 발견하셨다면<br>
 [Issues](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/issues)를 통해 제보해 주세요.
 
 가능하면 발생 장면과 스크린샷을 함께 첨부해 주시면 확인에 도움이 됩니다.
