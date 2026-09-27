@@ -25,8 +25,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ### 대사 / 이벤트
 
-> 스토리 대사 및 이벤트 텍스트를 한국어화합니다.
-
 <img width="80%" alt="20260922204853_1" src="https://github.com/user-attachments/assets/fcd29c19-8959-4cee-8800-37733f50e394" />
 <img width="80%" alt="20260924235730_1" src="https://github.com/user-attachments/assets/71a87474-c88d-457d-b5b7-cbcae63590df" />
 
@@ -34,8 +32,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <br>
 
 ### 메뉴 / UI
-
-> 게임 진행에 사용되는 주요 메뉴와 UI 텍스트를 한국어화합니다.
 
 <img width="80%" alt="20260924234611_1" src="https://github.com/user-attachments/assets/2b0c5713-ab6d-4c3d-9dc7-1422ec15c764" />
 <img width="80%" alt="20260924234552_1" src="https://github.com/user-attachments/assets/8ec035df-2250-420c-911e-27235210eb84" />
@@ -45,8 +41,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <br>
 
 ### 아이템 / 스킬 / 도감
-
-> 아이템, 스킬, 설명문 및 도감 관련 텍스트를 한국어화합니다.
 
 <img width="80%" alt="20260924234727_1" src="https://github.com/user-attachments/assets/dd26a12c-05de-416e-a183-6f72e01d1774" />
 <img width="80%" alt="20260924234444_1" src="https://github.com/user-attachments/assets/ce73abdc-7a23-45e8-872a-d20c61a7d01e" />
@@ -63,8 +57,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ### 튜토리얼 / 이미지
 
-> 튜토리얼 및 게임 내 이미지 자산 중 한국어화가 필요한 항목을 작업합니다.
-
 <img width="80%" alt="20260924203024_1" src="https://github.com/user-attachments/assets/b4bb3c70-d3c1-4f16-acbc-b0a949b276b0" />
 <img width="80%" alt="20260925015131_1" src="https://github.com/user-attachments/assets/089a846b-5514-406a-83a8-b55458f71da7" />
 <img width="80%" alt="20260924202732_1" src="https://github.com/user-attachments/assets/923dbc0e-565c-42a4-a624-a095038ab142" />
@@ -75,8 +67,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ### 동영상 자막
 
-> 게임 내 동영상 및 이벤트 영상의 자막을 한국어화합니다.
-
 <img width="80%" alt="Codex 이미지 2026년 9월 13일 오전 02_35_29" src="https://github.com/user-attachments/assets/55a0e316-4e35-42ab-a000-b327269d37e7" />
 <img width="80%" alt="Codex 이미지 2026년 9월 13일 오전 02_34_58" src="https://github.com/user-attachments/assets/30c84783-b8de-4e69-a496-d817285b8214" />
 
@@ -85,19 +75,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ### 플로어 / 장소 이름
 
-> [!NOTE]
-> **플로어 및 장소 이름 이미지 한국어화 제외 안내**
->
-> 플로어 및 장소 이름은 총 **119종의 개별 이미지 자산**으로 구성되어 있습니다.  
-> 모든 이미지를 하나씩 식질해야 하는 작업량을 고려하여,<br>
->**v1.0에서는 해당 항목을 한국어화 대상에서 제외하고 원문 이미지를 유지합니다.**
->
-> 아래 이미지는 해당 플로어 / 장소 이름 자산의 예시입니다.
-
-<img width="80%" alt="loading_area00" src="https://github.com/user-attachments/assets/2c38cd68-bdaf-40fa-b544-96482cd77785" />
-<img width="80%" alt="loading_area07" src="https://github.com/user-attachments/assets/f3b7d261-137f-4bc4-a533-301966149bec" />
-<img width="80%" alt="loading_area06" src="https://github.com/user-attachments/assets/f86e2cf5-ed36-4465-863d-5bf0f16949ad" />
-
+<img width="4128" height="2170" alt="loading_area03_original_vs_KO" src="https://github.com/user-attachments/assets/b5f42387-bc00-403f-8278-8d5894c01145" />
+<img width="4128" height="2170" alt="loading_area21_original_vs_KO" src="https://github.com/user-attachments/assets/e7892603-fc80-4f0a-b05f-f35546ba6050" />
 
 <br>
 
