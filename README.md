@@ -8,8 +8,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 설치 및 적용 방법은 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**를 확인해 주세요.
 
 > [!NOTE]
-> 한국어 패치와 별도로 사용할 수 있는 **이상한 환상향 TOD -RELOADED- 유틸리티 프로그램**도 제공합니다.<br>
-> **[유틸리티 v1.0 릴리즈 바로가기](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/utility-v1.0)**
+> 한국어 패치와 별도로 사용할 수 있는 **PC판 유틸리티 프로그램**도 제공합니다.<br>
+> **[Self QA 검수 트레이너 v1.0](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/trainer-v1.0)** · **[세이브 스냅샷 관리자 v1.0](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)**
 
 > [!TIP]
 > 설치 방법을 처음 보는 경우 GitHub의 `INSTALL.md` 원문보다 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 보는 것을 권장합니다.
@@ -86,11 +86,34 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ## 유틸리티 프로그램
 
-한국어 패치 본체와 별도로 관리·배포하는 **이상한 환상향 TOD -RELOADED- 유틸리티 프로그램**입니다.
+한국어 패치 본체와 별도로 관리·배포하는 **PC판 전용 보조 프로그램**입니다.
 
-**[유틸리티 v1.0 릴리즈 바로가기](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/utility-v1.0)**
+### 🎯 TODR Self QA 검수 트레이너 v1.0
 
-> 패치 본체와 유틸리티는 서로 다른 릴리즈로 관리됩니다.
+한글화 결과를 빠르게 확인하기 위한 **포터블 치트 / 검수 트레이너**입니다. 설치 없이 EXE 하나로 실행됩니다.
+
+- **F6** MAX DAMAGE 켜기 / 끄기
+- **F7** 정상 마법진 탐색 후 다음 층 자동 이동
+- **F8** 무적 켜기 / 끄기 및 만복도 유지
+- **F9** 적용 상태를 복구하며 검수 도구 종료
+- Steam PC판 전용이며, 지원하지 않는 실행 파일 버전은 메모리를 변경하지 않고 종료합니다.
+
+**[Self QA 검수 트레이너 v1.0 다운로드](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/trainer-v1.0)**
+
+### 💾 TODR 세이브 스냅샷 관리자 v1.0
+
+게임 진행 상황을 이름과 메모를 붙여 보관하고 원하는 시점으로 복원하는 **포터블 세이브 백업 도구**입니다.
+
+- 원하는 시점의 **새 스냅샷** 생성
+- 세이브 진행 데이터만 되돌리는 **진행만 복원**
+- 설정과 키 배치까지 포함하는 **전체 상태 복원**
+- 복원 직전 상태로 되돌리는 **방금 상태로 돌아가기**
+- 백업 파일 SHA-256 검증 및 게임 실행 중 백업·복원 차단
+- 복원 전 Steam Cloud를 끄거나 Steam 오프라인 사용을 권장합니다.
+
+**[세이브 스냅샷 관리자 v1.0 다운로드](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)**
+
+> 두 유틸리티는 한국어 패치 및 서로 간에도 **별도 릴리즈 / 별도 버전**으로 관리됩니다.
 
 <br>
 
