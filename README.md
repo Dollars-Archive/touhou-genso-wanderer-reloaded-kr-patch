@@ -9,7 +9,8 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 > [!NOTE]
 > 한국어 패치와 별도로 사용할 수 있는 **PC판 유틸리티 프로그램**도 제공합니다.<br>
-> **[Self QA 검수 트레이너 v1.0](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/trainer-v1.0)** · **[세이브 스냅샷 관리자 v1.0](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)**
+> [**Self QA 검수 트레이너 v1.0**](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/trainer-v1.0)<br>
+> [**세이브 스냅샷 관리자 v1.0**](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)
 
 > [!TIP]
 > 설치 방법을 처음 보는 경우 GitHub의 `INSTALL.md` 원문보다 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 보는 것을 권장합니다.
