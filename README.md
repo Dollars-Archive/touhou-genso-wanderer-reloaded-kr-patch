@@ -8,7 +8,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 설치 및 적용 방법은 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**를 확인해 주세요.
 
 > [!NOTE]
-> 한국어 패치와 별도로 사용할 수 있는 **이상한 환상향 TOD -RELOADED- 유틸리티 프로그램**도 제공합니다.
+> 한국어 패치와 별도로 사용할 수 있는 **이상한 환상향 TOD -RELOADED- 유틸리티 프로그램**도 제공합니다.<br>
 > **[유틸리티 v1.0 릴리즈 바로가기](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/utility-v1.0)**
 
 > [!TIP]
