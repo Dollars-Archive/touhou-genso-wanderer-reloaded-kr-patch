@@ -7,6 +7,10 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 설치 및 적용 방법은 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**를 확인해 주세요.
 
+> [!NOTE]
+> 한국어 패치와 별도로 사용할 수 있는 **이상한 환상향 TOD -RELOADED- 유틸리티 프로그램**도 제공합니다.
+> **[유틸리티 v1.0 릴리즈 바로가기](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/utility-v1.0)**
+
 > [!TIP]
 > 설치 방법을 처음 보는 경우 GitHub의 `INSTALL.md` 원문보다 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 보는 것을 권장합니다.
 
@@ -77,6 +81,16 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <img width="4128" height="2170" alt="loading_area03_original_vs_KO" src="https://github.com/user-attachments/assets/b5f42387-bc00-403f-8278-8d5894c01145" />
 <img width="4128" height="2170" alt="loading_area21_original_vs_KO" src="https://github.com/user-attachments/assets/e7892603-fc80-4f0a-b05f-f35546ba6050" />
+
+<br>
+
+## 유틸리티 프로그램
+
+한국어 패치 본체와 별도로 관리·배포하는 **이상한 환상향 TOD -RELOADED- 유틸리티 프로그램**입니다.
+
+**[유틸리티 v1.0 릴리즈 바로가기](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/utility-v1.0)**
+
+> 패치 본체와 유틸리티는 서로 다른 릴리즈로 관리됩니다.
 
 <br>
 
