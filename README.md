@@ -105,12 +105,13 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 게임 진행 상황을 이름과 메모를 붙여 보관하고 원하는 시점으로 복원하는 **포터블 세이브 백업 도구**입니다.
 
-- 원하는 시점의 **새 스냅샷** 생성
-- 세이브 진행 데이터만 되돌리는 **진행만 복원**
-- 설정과 키 배치까지 포함하는 **전체 상태 복원**
-- 복원 직전 상태로 되돌리는 **방금 상태로 돌아가기**
-- 백업 파일 SHA-256 검증 및 게임 실행 중 백업·복원 차단
-- 복원 전 Steam Cloud를 끄거나 Steam 오프라인 사용을 권장합니다.
+- **슬롯 1 / 슬롯 2 / 전체 슬롯** 중 대상을 골라 새 스냅샷 생성 및 복원
+- 슬롯별 복원 시 다른 슬롯과 공용 설정은 그대로 유지
+- **전체 슬롯**은 현재 존재하는 모든 `savedata` 숫자 슬롯을 함께 백업·복원
+- `config.sav`, `keyconfig.json`, `userprefs.json` 등 공용 설정 파일은 백업·복원하지 않음
+- 마지막 복원 직전 상태로 되돌리는 **방금 상태로 돌아가기**
+- 게임 실행 중 작업 차단, 변경 감지, 백업 파일 **SHA-256 검증**
+- 복원 전에는 **Steam Cloud를 반드시 끄거나 Steam을 오프라인으로 전환**
 
 **[세이브 스냅샷 관리자 v1.0 다운로드](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)**
 
