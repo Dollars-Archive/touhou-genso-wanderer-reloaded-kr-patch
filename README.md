@@ -47,7 +47,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 ### 아이템 / 스킬 / 도감
 
-<img width="80%" alt="20260924234727_1" src="https://github.com/user-attachments/assets/dd26a12c-05de-416e-a183-6f72e01d1774" />
+<img width="960" height="540" alt="01004e900b082000_2026-09-28_16-23-14-112" src="https://github.com/user-attachments/assets/df03ca37-76e2-4e88-b816-fbd3f76a9a8a" />
 <img width="80%" alt="20260924234444_1" src="https://github.com/user-attachments/assets/ce73abdc-7a23-45e8-872a-d20c61a7d01e" />
 <img width="80%" alt="20260924234532_1" src="https://github.com/user-attachments/assets/94d5dae9-792f-4dee-89a0-1ff9df30bad3" />
 <img width="80%" alt="20260924234507_1" src="https://github.com/user-attachments/assets/81d087a0-6874-4b37-afd8-8996da8d085c" />
