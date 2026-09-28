@@ -109,7 +109,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 - 슬롯별 복원 시 다른 슬롯과 공용 설정은 그대로 유지
 - **전체 슬롯**은 현재 존재하는 모든 `savedata` 숫자 슬롯을 함께 백업·복원
 - `config.sav`, `keyconfig.json`, `userprefs.json` 등 공용 설정 파일은 백업·복원하지 않음
-- 마지막 복원 직전 상태로 되돌리는 **방금 상태로 돌아가기**
+- 마지막으로 복원한 슬롯의 복원 직전 상태로 되돌리는 **방금 상태로 돌아가기**
 - 게임 실행 중 작업 차단, 변경 감지, 백업 파일 **SHA-256 검증**
 - 복원 전에는 **Steam Cloud를 반드시 끄거나 Steam을 오프라인으로 전환**
 
