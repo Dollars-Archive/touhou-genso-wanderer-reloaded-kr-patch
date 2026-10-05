@@ -15,18 +15,26 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 > [!TIP]
 > 설치 방법을 처음 보는 경우 GitHub의 `INSTALL.md` 원문보다 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 보는 것을 권장합니다.
 
+<!-- kr-patch:game-info:v1:start -->
 ## 게임 정보
 
 | 항목 | 내용 |
 | --- | --- |
+| 한글 제목 | 이상한 환상향 TOD -RELOADED- |
 | 원제 | 不思議の幻想郷TOD -RELOADED- |
+| 시리즈 | 동방 |
 | 플랫폼 | PC (Steam) / Nintendo Switch |
+| 개발사 | AQUASTYLE |
 | 장르 | 던전 RPG |
-| 출시일 | Nintendo Switch: 2017년 12월 21일 / Steam: 2018년 10월 25일 |
+| 일본 발매일 | 2017-12-21 |
+| 플레이타임 | 8.5–69.5시간 |
 | CERO | B (12세 이상, Nintendo Switch판) |
 | 지원 판본 | Steam판 / Nintendo Switch판 |
 | Title ID | `01004E900B082000` (Nintendo Switch) |
 | 패치 기준 업데이트 | PC: 패처 지원 원본 / Nintendo Switch: 공식 Ver.1.0.3 |
+| 출시일 | Nintendo Switch: 2017년 12월 21일 / Steam: 2018년 10월 25일 |
+
+<!-- kr-patch:game-info:v1:end -->
 
 > [!NOTE]
 > 패치에는 게임 본편이나 공식 업데이트 파일이 포함되어 있지 않습니다.  
@@ -34,19 +42,20 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 다른 버전에서는 정상 동작을 보장하지 않습니다.
 
-## 한국어화 범위
-
+<!-- kr-patch:scope:v1:start -->
 > 게임 진행에 필요한 주요 텍스트와 UI를 중심으로 한국어화를 진행하고 있습니다.
 
 <br>
 
-### 대사 / 이벤트
+<!-- 각 항목의 상태만 완료 / 일부 / 미작업 / 해당 없음 중 하나로 수정합니다. 기존 근거가 부족한 항목은 확인 필요로 남깁니다. -->
 
-<img width="80%" alt="20260922204853_1" src="https://github.com/user-attachments/assets/fcd29c19-8959-4cee-8800-37733f50e394" />
-<img width="80%" alt="20260924235730_1" src="https://github.com/user-attachments/assets/71a87474-c88d-457d-b5b7-cbcae63590df" />
+## 타이틀 한글화
 
+상태: 완료
 
-<br>
+## 메뉴·UI
+
+상태: 완료
 
 ### 메뉴 / UI
 
@@ -72,6 +81,22 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <br>
 
+## 대사
+
+상태: 완료
+
+### 대사 / 이벤트
+
+<img width="80%" alt="20260922204853_1" src="https://github.com/user-attachments/assets/fcd29c19-8959-4cee-8800-37733f50e394" />
+<img width="80%" alt="20260924235730_1" src="https://github.com/user-attachments/assets/71a87474-c88d-457d-b5b7-cbcae63590df" />
+
+
+<br>
+
+## 이미지 번역
+
+상태: 일부
+
 ### 튜토리얼 / 이미지
 
 <img width="80%" alt="20260924203024_1" src="https://github.com/user-attachments/assets/b4bb3c70-d3c1-4f16-acbc-b0a949b276b0" />
@@ -82,6 +107,17 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <br>
 
+### 플로어 / 장소 이름
+
+<img width="4128" height="2170" alt="loading_area03_original_vs_KO" src="https://github.com/user-attachments/assets/b5f42387-bc00-403f-8278-8d5894c01145" />
+<img width="4128" height="2170" alt="loading_area21_original_vs_KO" src="https://github.com/user-attachments/assets/e7892603-fc80-4f0a-b05f-f35546ba6050" />
+
+<br>
+
+## 동영상 자막
+
+상태: 완료
+
 ### 동영상 자막
 
 <img width="80%" alt="Codex 이미지 2026년 9월 13일 오전 02_35_29" src="https://github.com/user-attachments/assets/55a0e316-4e35-42ab-a000-b327269d37e7" />
@@ -90,12 +126,7 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <br>
 
-### 플로어 / 장소 이름
-
-<img width="4128" height="2170" alt="loading_area03_original_vs_KO" src="https://github.com/user-attachments/assets/b5f42387-bc00-403f-8278-8d5894c01145" />
-<img width="4128" height="2170" alt="loading_area21_original_vs_KO" src="https://github.com/user-attachments/assets/e7892603-fc80-4f0a-b05f-f35546ba6050" />
-
-<br>
+<!-- kr-patch:scope:v1:end -->
 
 ## 유틸리티 프로그램
 
