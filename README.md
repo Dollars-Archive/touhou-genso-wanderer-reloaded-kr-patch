@@ -7,14 +7,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 설치 및 적용 방법은 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**를 확인해 주세요.
 
-> [!NOTE]
-> 한국어 패치와 별도로 사용할 수 있는 **PC판 유틸리티 프로그램**도 제공합니다.<br>
-> [**Self QA 검수 트레이너 v1.0**](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/trainer-v1.0)<br>
-> [**세이브 스냅샷 관리자 v1.0**](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)
-
-> [!TIP]
-> 설치 방법을 처음 보는 경우 GitHub의 `INSTALL.md` 원문보다 **[웹 설치 가이드](https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/)**에서 보는 것을 권장합니다.
-
 <!-- kr-patch:game-info:v1:start -->
 ## 게임 정보
 
@@ -49,14 +41,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <!-- 각 항목의 상태만 완료 / 일부 / 미작업 / 해당 없음 중 하나로 수정합니다. 기존 근거가 부족한 항목은 확인 필요로 남깁니다. -->
 
-## 타이틀 한글화
-
-상태: 완료
-
-## 메뉴·UI
-
-상태: 완료
-
 ### 메뉴 / UI
 
 <img width="80%" alt="20260924234611_1" src="https://github.com/user-attachments/assets/2b0c5713-ab6d-4c3d-9dc7-1422ec15c764" />
@@ -81,10 +65,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <br>
 
-## 대사
-
-상태: 완료
-
 ### 대사 / 이벤트
 
 <img width="80%" alt="20260922204853_1" src="https://github.com/user-attachments/assets/fcd29c19-8959-4cee-8800-37733f50e394" />
@@ -93,17 +73,12 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <br>
 
-## 이미지 번역
-
-상태: 일부
-
 ### 튜토리얼 / 이미지
 
 <img width="80%" alt="20260924203024_1" src="https://github.com/user-attachments/assets/b4bb3c70-d3c1-4f16-acbc-b0a949b276b0" />
 <img width="80%" alt="20260925015131_1" src="https://github.com/user-attachments/assets/089a846b-5514-406a-83a8-b55458f71da7" />
 <img width="80%" alt="20260924202732_1" src="https://github.com/user-attachments/assets/923dbc0e-565c-42a4-a624-a095038ab142" />
 <img width="80%" alt="20260924202728_1" src="https://github.com/user-attachments/assets/49297b48-bde0-4051-94ac-a40cc68f37d6" />
-
 
 <br>
 
@@ -114,10 +89,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 
 <br>
 
-## 동영상 자막
-
-상태: 완료
-
 ### 동영상 자막
 
 <img width="80%" alt="Codex 이미지 2026년 9월 13일 오전 02_35_29" src="https://github.com/user-attachments/assets/55a0e316-4e35-42ab-a000-b327269d37e7" />
@@ -127,38 +98,6 @@ PC / Nintendo Switch판 **Touhou Genso Wanderer Reloaded (이상한 환상향 TO
 <br>
 
 <!-- kr-patch:scope:v1:end -->
-
-## 유틸리티 프로그램
-
-한국어 패치 본체와 별도로 관리·배포하는 **PC판 전용 보조 프로그램**입니다.
-
-### 🎯 TODR Self QA 검수 트레이너 v1.0
-
-한글화 결과를 빠르게 확인하기 위한 **포터블 치트 / 검수 트레이너**입니다. 설치 없이 EXE 하나로 실행됩니다.
-
-- **F6** MAX DAMAGE 켜기 / 끄기
-- **F7** 정상 마법진 탐색 후 다음 층 자동 이동
-- **F8** 무적 켜기 / 끄기 및 만복도 유지
-- **F9** 적용 상태를 복구하며 검수 도구 종료
-- Steam PC판 전용이며, 지원하지 않는 실행 파일 버전은 메모리를 변경하지 않고 종료합니다.
-
-**[Self QA 검수 트레이너 v1.0 다운로드](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/trainer-v1.0)**
-
-### 💾 TODR 세이브 스냅샷 관리자 v1.0
-
-게임 진행 상황을 이름과 메모를 붙여 보관하고 원하는 시점으로 복원하는 **포터블 세이브 백업 도구**입니다.
-
-- **슬롯 1 / 슬롯 2 / 전체 슬롯** 중 대상을 골라 새 스냅샷 생성 및 복원
-- 슬롯별 복원 시 다른 슬롯과 공용 설정은 그대로 유지
-- **전체 슬롯**은 현재 존재하는 모든 `savedata` 숫자 슬롯을 함께 백업·복원
-- `config.sav`, `keyconfig.json`, `userprefs.json` 등 공용 설정 파일은 백업·복원하지 않음
-- 마지막으로 복원한 슬롯의 복원 직전 상태로 되돌리는 **방금 상태로 돌아가기**
-- 게임 실행 중 작업 차단, 변경 감지, 백업 파일 **SHA-256 검증**
-- 복원 전에는 **Steam Cloud를 반드시 끄거나 Steam을 오프라인으로 전환**
-
-**[세이브 스냅샷 관리자 v1.0 다운로드](https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/save-manager-v1.0)**
-
-> 두 유틸리티는 한국어 패치 및 서로 간에도 **별도 릴리즈 / 별도 버전**으로 관리됩니다.
 
 <br>
 
